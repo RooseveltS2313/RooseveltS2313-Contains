@@ -13,7 +13,7 @@ public class Contains {
     public boolean arrayContains(int[] arr, int target){
         boolean found = false;
         for (int i = 0; i < arr.length; i++){
-            if(target == arr[i]){ found = true;}
+            if(target == arr[i]){ found = true; }
         }
         return found;
     }
